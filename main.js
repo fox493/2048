@@ -125,7 +125,7 @@ function isgameover() {
 }
 
 function gameover() {
-
+    alert("Game Over!");
 }
 
 function moveLeft() {
@@ -255,7 +255,7 @@ function moveDown() {
                             //add score
                             score += board[k][j];
                             updateScore(score);
-                            hasConflicted[k][j] = true;         
+                            hasConflicted[k][j] = true;
                             continue;
                         }
                     }

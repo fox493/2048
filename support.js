@@ -67,7 +67,7 @@ function nospace(board) {
 }
 
 function nomove(board) {
-    if (canMoveLeft(board) || canMoveRight() || canMoveUp() || canMoveDown())
+    if (canMoveLeft(board) || canMoveRight(board) || canMoveUp(board) || canMoveDown(board))
         return false;
 
     return true;
